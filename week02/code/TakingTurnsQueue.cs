@@ -7,7 +7,7 @@
 /// less than they will stay in the queue forever.  If a person is out of turns then they will 
 /// not be added back into the queue.
 /// </summary>
-public class TakingTurnsQueue
+public class TakingTurnsQueueV2
 {
     private readonly PersonQueue _people = new();
 
